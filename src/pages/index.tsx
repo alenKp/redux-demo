@@ -4,9 +4,9 @@ import { incrementAction, reduceAction } from '../reducers/calculate';
 import { connect } from 'react-redux';
 
 interface Props {
-    num: number,
+    num: number,4545645
     increment: ()=>any,
-    decrement: ()=>any,
+    decrement: ()=>any, 
 }
 
 const mapStateToProps = (state: any) => {
@@ -28,5 +28,5 @@ export default class Home extends Component<Props, any> {
             <p onClick={this.props.decrement}>click to decrement num</p>
             <p>{this.props.num}</p>
         </div>
-    }
+    }孤鸿寡鹄返回发
 }
